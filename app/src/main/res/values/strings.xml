@@ -3160,5 +3160,25 @@
     <string name="replay_export_stage_finalizing">正在封装导出文件…</string>
     <string name="replay_export_stage_saving_gallery">正在写入系统相册…</string>
     <string name="replay_export_hint_4k">4K 分辨率导出耗时较长，建议优先选择 1080p</string>
+    <string name="layer_export_title">动画图层素材</string>
+    <string name="layer_export_description">将当前帧的每个颜料图层导出为透明 PNG，保持画布原尺寸和位置，一次保存为 ZIP</string>
+    <string name="layer_export_include_hidden">包含隐藏图层</string>
+    <string name="layer_export_limitations">导出原始像素，不烘焙不透明度、混合与蒙版效果；图层组保留层级，其他特殊图层仅记录在清单中</string>
+    <string name="layer_export_action">导出图层素材 ZIP</string>
+    <string name="layer_export_progress">正在导出图层 %1$d / %2$d</string>
+    <string name="layer_export_saving">正在保存 ZIP</string>
+    <string name="layer_export_cancel">取消</string>
+    <string name="layer_export_done">知道了</string>
+    <string name="layer_export_complete">已导出 %1$d 个图层，%2$d 个图层未导出图片\n图层顺序、属性和未导出原因详见 ZIP 内的 layers.json；图层组仅记录层级，不重复输出图片</string>
+    <string name="layer_export_failed">图层导出失败，请检查存储空间和保存位置后重试</string>
+    <string name="layer_export_cancelled">已取消导出</string>
+    <string name="layer_export_cleanup_hint">保存位置可能留下不完整的文件，请检查并删除</string>
+    <string name="layer_export_too_large">当前画布超过 1677 万像素的导出上限，为避免内存不足，请在作品副本中缩小画布后重试；不会自动降低输出分辨率</string>
+    <string name="layer_export_memory">内存不足，未完成图层导出；请关闭其他应用或在作品副本中缩小画布后重试</string>
+    <string name="layer_export_empty">没有可导出的颜料图层，请检查隐藏图层选项和图层类型</string>
+    <string name="layer_export_document_changed">作品已切换，请重新选择导出位置</string>
+    <string name="layer_export_finish_stroke">请先结束笔画或确认速创形状，再导出图层素材</string>
+    <string name="layer_export_preparing">正在准备图层</string>
+    <string name="layer_export_cancelling">正在取消，请等待当前图层处理结束</string>
 </resources>
 

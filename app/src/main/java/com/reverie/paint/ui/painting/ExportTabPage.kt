@@ -660,6 +660,9 @@ private fun StaticExportSection(
 
         HorizontalDivider(color = Morandi.border.copy(alpha = 0.5f), thickness = 0.8.dp)
 
+        LayerExportSection(vm, enabled = !isExporting)
+        HorizontalDivider(color = Morandi.border.copy(alpha = 0.5f), thickness = 0.8.dp)
+
         // 存为模板卡片 (Issue #101)
         var showSaveTemplateDialog by remember { mutableStateOf(false) }
         val templateInteraction = remember { MutableInteractionSource() }

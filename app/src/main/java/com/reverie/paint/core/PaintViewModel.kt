@@ -4962,6 +4962,7 @@ class PaintViewModel : ViewModel() {
     internal val syncState = SyncState()
 
     internal val localBackupState = LocalBackupState()
+    internal val layerExportState = LayerExportState()
 
     /** 动画音频播放器 (导入的音频资源, 播放动画时循环同步播放; 见 PaintViewModelAnimation.kt) */
     internal val animAudioPlayers = mutableListOf<android.media.MediaPlayer>()
@@ -5117,6 +5118,7 @@ class PaintViewModel : ViewModel() {
     }
 
     override fun onCleared() {
+        layerExportState.cancel()
         if (currentInstance == this) {
             currentInstance = null
         }

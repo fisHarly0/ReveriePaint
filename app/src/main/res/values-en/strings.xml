@@ -3160,5 +3160,25 @@
     <string name="replay_export_stage_finalizing">Finalizing export file…</string>
     <string name="replay_export_stage_saving_gallery">Saving to system gallery…</string>
     <string name="replay_export_hint_4k">4K export takes longer, 1080p recommended</string>
+    <string name="layer_export_title">Animation layer assets</string>
+    <string name="layer_export_description">Export each paint layer at the current frame as a transparent PNG, keeping the original canvas size and position, in one ZIP</string>
+    <string name="layer_export_include_hidden">Include hidden layers</string>
+    <string name="layer_export_limitations">Exports raw pixels without baking opacity, blending or masks; groups retain their hierarchy, while other special layers are listed in the manifest only</string>
+    <string name="layer_export_action">Export layer assets ZIP</string>
+    <string name="layer_export_progress">Exporting layer %1$d / %2$d</string>
+    <string name="layer_export_saving">Saving ZIP</string>
+    <string name="layer_export_cancel">Cancel</string>
+    <string name="layer_export_done">OK</string>
+    <string name="layer_export_complete">Exported %1$d layers; %2$d layers have no image\nSee layers.json in the ZIP for order, properties and omission reasons. Groups retain hierarchy without duplicate images</string>
+    <string name="layer_export_failed">Layer export failed. Check storage space and the destination, then try again</string>
+    <string name="layer_export_cancelled">Export cancelled</string>
+    <string name="layer_export_cleanup_hint">An incomplete file may remain at the destination. Please check and delete it</string>
+    <string name="layer_export_too_large">The canvas exceeds the 16,777,216-pixel export limit. Resize a copy to reduce memory use and try again; export resolution is never silently reduced</string>
+    <string name="layer_export_memory">Not enough memory to export layers. Close other apps or resize a copy of the artwork and try again</string>
+    <string name="layer_export_empty">No paint layers to export. Check layer types and the hidden-layer option</string>
+    <string name="layer_export_document_changed">The artwork changed. Choose an export destination again</string>
+    <string name="layer_export_finish_stroke">Finish the stroke or confirm the QuickShape before exporting layer assets</string>
+    <string name="layer_export_preparing">Preparing layers</string>
+    <string name="layer_export_cancelling">Cancelling; waiting for the current layer to finish</string>
 </resources>
 
